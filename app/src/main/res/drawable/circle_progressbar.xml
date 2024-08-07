@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <shape
+            android:innerRadiusRatio="2.71"
+            android:thicknessRatio="10"
+            android:shape="ring"
+            android:useLevel="false"> <!-- 배경은 항상 전체를 채움 -->
+            <solid android:color="#525CEB" />
+        </shape>
+    </item>
+
+    <item android:id="@android:id/progress">
+        <rotate
+            android:fromDegrees="270"
+            android:toDegrees="270"
+            android:pivotX="50%"
+            android:pivotY="50%">
+            <shape
+                android:innerRadiusRatio="2.71"
+                android:thicknessRatio="10"
+                android:shape="ring"
+                android:useLevel="true"> <!-- 진행 상태가 레벨에 따라 변함 -->
+                <solid android:color="#DDDDDD" />
+            </shape>
+        </rotate>
+    </item>
+</layer-list>
