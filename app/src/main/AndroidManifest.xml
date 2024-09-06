@@ -25,7 +25,7 @@
         tools:targetApi="31">
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-8553641689630097~6769633226"/>
+            android:value="Your_Application_Id"/>
         <service
             android:name=".WorkForegroundService"
             android:foregroundServiceType="mediaPlayback"
